@@ -1,0 +1,15 @@
+springdoc:
+  version: 1.0.0
+  swagger-ui:
+    path: /swagger-ui-custom.html
+
+
+management:
+  endpoint:
+    health:
+      show-details: always
+
+server:
+  port: 9001
+  http2:
+    enabled: true
